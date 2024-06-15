@@ -1,0 +1,45 @@
+.btn
+{
+    height:3vw;
+    width: 4vw;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vw;
+    width: 21vw;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35vw;
+    top: 5vw;
+}
+#key
+{
+    position: absolute;
+    left: 29vw;
+    top: 30vw;
+}
+#greet
+{
+    position: absolute;
+    top: 20vw;
+    left: 34vw;
+}
+#second
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#res
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(233, 15, 15);
+    display: none;
+}
+#out
+{
+    display: block;
+}

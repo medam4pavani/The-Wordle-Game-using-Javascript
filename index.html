@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css">
+    <script src="./game.js" defer></script>
+</head>
+<body>
+<div id="out">
+    <div id="main">
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+    </div>
+    <div id="key">
+        <div>
+            <input type="button" value="Q" onclick="display()" class="alpha">
+            <input type="button" value="W" onclick="display()" class="alpha">
+            <input type="button" value="E" onclick="display()" class="alpha">
+            <input type="button" value="R" onclick="display()" class="alpha">
+            <input type="button" value="T" onclick="display()" class="alpha">
+            <input type="button" value="Y" onclick="display()" class="alpha">
+            <input type="button" value="U" onclick="display()" class="alpha">
+            <input type="button" value="I" onclick="display()" class="alpha">
+            <input type="button" value="O" onclick="display()" class="alpha">
+            <input type="button" value="P" onclick="display()" class="alpha">
+        </div>
+        <div id="second">
+            <input type="button" value="A" onclick="display()" class="alpha">
+            <input type="button" value="S" onclick="display()" class="alpha">
+            <input type="button" value="D" onclick="display()" class="alpha">
+            <input type="button" value="F" onclick="display()" class="alpha">
+            <input type="button" value="G" onclick="display()" class="alpha">
+            <input type="button" value="H" onclick="display()" class="alpha">
+            <input type="button" value="J" onclick="display()" class="alpha">
+            <input type="button" value="K" onclick="display()" class="alpha">
+            <input type="button" value="L" onclick="display()" class="alpha">
+        </div>
+        <div>
+            <input type="button" value="Ent" onclick="enter()" id="ent">
+            <input type="button" value="Z" onclick="display()" class="alpha">
+            <input type="button" value="X" onclick="display()" class="alpha">
+            <input type="button" value="C" onclick="display()" class="alpha">
+            <input type="button" value="V" onclick="display()" class="alpha">
+            <input type="button" value="B" onclick="display()" class="alpha">
+            <input type="button" value="N" onclick="display()" class="alpha">
+            <input type="button" value="M" onclick="display()" class="alpha">
+            <input type="button" value="DEL" onclick="del()" id="dele">
+        </div>
+    </div>
+</div>
+    <p id="greet"></p>
+    <div id="res">
+        <p id="games">No of games played</p>
+        <p id="won">No of games won</p>
+        <button onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>
